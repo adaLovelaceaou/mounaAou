@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    padding: 0%;
+    background: radial-gradient(circle, rgb(163, 134, 197) 0%, rgb(104, 75, 132) 100%);
+    height: 70vh;
+
+}
+
+
+
+.about {
+    font-size: 30px;
+    font-family: cursive, "Brush Script MT";
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+
+.main {
+    height: 60vh;
+    /*border-style: double;*/
+    border-width: 2px;
+    border-radius: 30px 30px 30px 30px;
+    border-radius: 30px 30px 30px 30px;
+    margin: 40px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border-color: rgb(133, 92, 62);*/
+}
+
+
+.main div {
+    padding: 50px 50px;
+    width: 200px;
+    height: 180px;
+    background-color: rgba(95, 65, 113, 0.317);
+    margin: 0px 10px;
+    border-width: 3px;
+    border-radius: 30px 30px;
+    border-width: 3px;
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.main div a {
+
+    color: rgb(253, 154, 255);
+
+}
+
+.main div:hover {
+    background-color: rgba(50, 0, 54, 0.317);
+
+}
+
+
+
+p {
+    text-align: center;
+}
+
+.H {
+    width: 50px;
+    height: 10px;
+    background-color: red;
+}
+
+img {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

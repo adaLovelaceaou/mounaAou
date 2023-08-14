@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    padding: 0%;
+    background: white;
+    height: 70vh;
+    background: radial-gradient(circle, rgb(163, 134, 197) 0%, rgb(104, 75, 132) 100%);
+
+}
+
+.Home {
+
+    border-radius: 300px 300px 0px 0px;
+    margin: 0px;
+}
+
+
+.main {
+    height: 60vh;
+    margin: 40px 150px 100px 0px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.main div p {
+    margin-right: 100PX;
+}
+
+form div {
+    margin: 20px;
+}
+
+div p {
+    text-align: center;
+}
+
+input {
+    height: 30PX;
+    width: 500px;
+    color: rgb(53, 15, 71);
+    border-radius: 2px;
+    border-width: 0.5px;
+    border-color: rgba(228, 160, 253, 0.662);
+
+}
+
+textarea {
+    width: 500px;
+    color: rgb(53, 15, 71);
+    border-radius: 2px;
+    border-width: 0.5px;
+    border-color: rgba(92, 69, 11, 0.662);
+}
+
+
+.main div {
+    display: flex;
+    justify-content: center;
+}
+
+.H2 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 0%;
+}
+
+img {
+    padding-right: 80px;
+    width: 450px;
+    opacity: 0.8;
+}

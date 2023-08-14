@@ -1,0 +1,317 @@
+body {
+    margin: 0px;
+    padding: 0%;
+    background: radial-gradient(circle, rgb(163, 134, 197) 0%, rgb(104, 75, 132) 100%);
+    height: 70vh;
+}
+
+
+.Home {
+    border-style: double;
+    border-width: 2px;
+    border-color: rgba(201, 175, 31, 0);
+}
+
+
+.about {
+    font-size: 30px;
+    font-family: cursive, "Brush Script MT";
+    color: rgb(240, 240, 240);
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.main {
+    height: 60vh;
+    /*border-style: double;*/
+    border-width: 2px;
+    border-radius: 30px 30px 30px 30px;
+    /* border-color: rgb(203, 182, 66);*/
+    border-radius: 30px 30px 30px 30px;
+    /*background-color: rgba(196, 150, 0, 0.405);*/
+    margin: 40px 20px 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border-color: rgb(133, 92, 62);*/
+}
+
+.line1,
+.line2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.line1 {
+    margin-top: 100px;
+}
+
+.main div .line1 div div,
+.main div .line2 div div {
+    padding: 50px 50px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(240, 240, 240);
+    margin: 0px 30px;
+    border-radius: 200px 200px 200px 200px;
+    color: white;
+}
+
+.main div .line1 div div:hover,
+.main div .line2 div div:hover {
+    background-color: rgb(241, 164, 255);
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+}
+
+.DevloppingWebsites {
+    background-image: url("imgs/sec\ \(6\).png");
+    background-size: 110px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Drawing {
+    background-image: url("imgs/sec\ \(7\).png");
+    background-size: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.OnlineTutor {
+    background-image: url("imgs/sec\ \(1\).png");
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ProblemSolving {
+    background-image: url("imgs/sec\ \(4\).png");
+    background-size: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ContentCreator {
+    background-image: url("imgs/sec.png");
+    background-size: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+p button {
+    color: rgb(255, 255, 255);
+}
+
+p button:hover {
+    color: rgb(241, 164, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: rgb(188, 160, 255);
+    margin: 15% auto;
+    padding: 40px;
+    border: 1px solid #888;
+    width: 70%;
+    height: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.526);
+}
+
+.modal-content .contentp {
+    display: flex;
+
+}
+
+img {
+    width: 290px;
+}
+
+
+.TEXT {
+    padding-top: 40px;
+    color: rgb(64, 14, 80);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+
+/* Close Button */
+.close {
+    color: #b12000;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #b12000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media(max-width:1200px) {
+
+    .main div .line1 div div,
+    .main div .line2 div div {
+        width: 20px;
+        height: 20px;
+    }
+
+    .DevloppingWebsites {
+        background-size: 90px;
+
+    }
+
+    .Drawing {
+        background-size: 90px;
+
+    }
+
+    .OnlineTutor {
+        background-size: 80px;
+
+    }
+
+    .ProblemSolving {
+        background-size: 80px;
+
+    }
+
+    .ContentCreator {
+        background-size: 90px;
+
+    }
+
+    .modal-content {
+        padding-top: 10px;
+        width: 70%;
+        height: 26%;
+    }
+
+    img {
+        width: 250PX;
+
+    }
+
+    .TEXT {
+        padding-top: 20px;
+        font-size: 14px;
+    }
+
+    .modal-content .contentp {
+        padding-top: 10px;
+    }
+
+}
+
+@media(max-width:1000px) {
+    .TEXT {
+        font-size: 11px;
+        padding-top: 25px;
+        text-align: center;
+    }
+
+    .modal-content .contentp {
+        display: block;
+    }
+
+    .modal-content .contentp span {
+        display: block;
+    }
+
+    .modal-content {
+        width: 70%;
+        height: 35%;
+        margin-top: 30px;
+    }
+
+    img {
+        padding-top: 10px;
+        width: 200px;
+        vertical-align: middle;
+    }
+
+    .main div .line1,
+    .main div .line2 {
+        display: block;
+        margin: 50px 0px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .main div .line1 div,
+    .main div .line2 div {
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+
+    .main div {
+        display: flex;
+        margin-top: 30px;
+
+    }
+
+    .main div .line1 div div,
+    .main div .line2 div div {
+        padding: 40px;
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .DevloppingWebsites {
+        background-size: 55px;
+
+    }
+
+    .Drawing {
+        background-size: 55px;
+
+    }
+
+    .OnlineTutor {
+        background-size: 55px;
+
+    }
+
+    .ProblemSolving {
+        background-size: 45px;
+
+    }
+
+    .ContentCreator {
+        background-size: 55px;
+
+    }
+
+}
